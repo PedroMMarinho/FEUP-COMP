@@ -1,0 +1,14 @@
+import Alpha;
+
+class Handler {
+
+    public int executeTask() {
+        int item;
+        if( Alpha.a()){
+            item = 2;
+        }
+        else{
+        }
+        return item;
+    }
+}

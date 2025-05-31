@@ -1,0 +1,13 @@
+
+class Handler  {
+
+    public int ball(){
+        return 1;
+       }
+    public int executeTask() {
+        Handler[] instance;
+        instance[0] = 3;
+
+        return instance[0].ball();
+    }
+}

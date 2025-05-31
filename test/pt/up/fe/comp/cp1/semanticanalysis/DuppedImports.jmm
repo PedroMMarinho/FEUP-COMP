@@ -1,0 +1,6 @@
+import one.two.three.test.io;
+import one.three.test.io;
+
+class T{
+
+}

@@ -1,0 +1,11 @@
+import A;
+
+class HelloWorld{
+    public int abc(){
+        A k;
+        k = new A();
+
+        return k;
+    }
+
+}

@@ -1,0 +1,15 @@
+import A;
+
+class HelloWorld{
+
+    public int abc(){
+        A k;
+        this.foo(k);
+        return 0;
+    }
+
+    public int foo(int param){
+        return 0;
+    }
+
+}

@@ -1,0 +1,16 @@
+import A;
+import B;
+
+class HelloWorld{
+
+    public int abc(){
+        A k;
+        this.foo(k);
+        return 0;
+    }
+
+    public int foo(B param){
+        return 0;
+    }
+
+}

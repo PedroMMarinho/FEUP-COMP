@@ -1,0 +1,38 @@
+class PropIfSpam {
+    public int foo(){
+	  int a;
+	  int b;
+	  a = 1;
+	  if( true ){
+	    a = 2;
+	    b = 2;
+	    if(true){
+	        this.echo(a);
+	        a = 3;
+	    }
+	    else{
+            this.echo(b);
+	    }
+	    this.echo(b);
+	  }
+	  else{
+	    if(true){
+            this.echo(a);
+	    }
+	    else{
+	        b = 2;
+            this.echo(b);
+	    }
+	    this.echo(b);
+	  }
+	  return a;
+	}
+
+	public int echo(int a){
+	    return a;
+	}
+
+    public static void main(String[] args) {
+
+    }
+}

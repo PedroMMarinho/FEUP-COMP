@@ -1,0 +1,13 @@
+// Must work, Alpha is considered a superclass of Delta
+import Alpha;
+import Beta;
+import Delta;
+
+class Handler extends Delta {
+    Alpha item;
+
+    public int performAction() {
+        item = new Delta();
+        return 1;
+    }
+}

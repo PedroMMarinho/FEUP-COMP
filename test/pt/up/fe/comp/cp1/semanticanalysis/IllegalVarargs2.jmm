@@ -1,0 +1,12 @@
+class DataProcessor {
+
+    int[] transformData(String[] inputStrings, boolean isActive, int[] inputNumbers, int... additionalValues){
+        return [];
+    }
+
+    static void main(String[] commandLineArgs){
+        DataProcessor processor;
+        processor = new DataProcessor();
+        processor.transformData(commandLineArgs, true, [1,2], [2,3], 4);
+    }
+}

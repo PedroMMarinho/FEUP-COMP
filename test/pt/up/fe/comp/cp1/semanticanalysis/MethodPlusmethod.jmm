@@ -1,0 +1,10 @@
+import Alpha;
+
+class Handler {
+
+    public int executeTask() {
+        int item;
+        item = Alpha.a() + Alpha.b();
+        return item;
+    }
+}

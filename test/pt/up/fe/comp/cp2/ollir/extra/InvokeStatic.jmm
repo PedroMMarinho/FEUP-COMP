@@ -1,0 +1,7 @@
+import B;
+class A extends B{
+    int foo(int a) {
+        B.foo(1);
+        return 0;
+    }
+}

@@ -1,0 +1,12 @@
+// Must fail, Handler cannot consider a superclass of Alpha
+import Alpha;
+import Beta;
+
+class Handler extends Delta {
+    Handler instance;
+
+    public int runProcess() {
+        instance = new Alpha();
+        return 1;
+    }
+}

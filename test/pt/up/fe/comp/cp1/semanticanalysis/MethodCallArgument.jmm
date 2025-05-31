@@ -1,0 +1,15 @@
+import A;
+
+class HelloWorld{
+
+    public int abc(){
+        A b;
+        this.test(b.foo());
+        return 0;
+    }
+
+    public int test(int a){
+        return 0;
+    }
+
+}

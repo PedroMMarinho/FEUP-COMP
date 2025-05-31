@@ -1,0 +1,14 @@
+import A;
+
+class HelloWorld extends A{
+    public int abc(){
+        HelloWorld k;
+        this.foo(k);
+        return 0;
+    }
+
+    public int foo(A param){
+        return 0;
+    }
+
+}

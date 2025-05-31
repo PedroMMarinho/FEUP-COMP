@@ -1,0 +1,13 @@
+// Must work, Delta is considered a superclass of Alpha
+import Alpha;
+import Beta;
+import Delta;
+
+class Processor extends Delta {
+    Delta instance;
+
+    public int processData() {
+        instance = new Alpha();
+        return 1;
+    }
+}

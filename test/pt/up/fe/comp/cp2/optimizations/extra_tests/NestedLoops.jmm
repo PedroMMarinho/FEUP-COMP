@@ -1,0 +1,21 @@
+class A {
+    public int B(boolean x) {
+        int a;
+        int b;
+        int c;
+        int d;
+        a = 0;
+        if (x){
+            b = 1;
+            while(c > a){
+                c = 1 + a;
+                a = a - 1;
+            }
+        }
+        else{
+            a = 2;
+        }
+        d = a + 1;
+        return a;
+    }
+}

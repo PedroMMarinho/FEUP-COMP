@@ -1,0 +1,10 @@
+import A;
+
+class IntPlusObject {
+
+    public static void main(String[] args) {
+        A.do();
+    }
+
+
+}

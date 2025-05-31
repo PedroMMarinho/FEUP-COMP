@@ -1,0 +1,10 @@
+import A;
+
+class HelloWorld extends A{
+    public A abc(){
+        HelloWorld k;
+
+        return k;
+    }
+
+}

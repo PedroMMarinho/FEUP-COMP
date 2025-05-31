@@ -1,0 +1,8 @@
+import Alpha;
+
+class Handler {
+
+    public boolean executeTask() {
+        return !Alpha.foo();
+    }
+}

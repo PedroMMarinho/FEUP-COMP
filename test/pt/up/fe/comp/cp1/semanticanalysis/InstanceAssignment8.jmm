@@ -1,0 +1,12 @@
+// Must work, Subclass being stored in the Superclass
+import Alpha;
+import Beta;
+
+class Processor extends Beta {
+    Beta item;
+
+    public int runProcess() {
+        item = new Processor();
+        return 1;
+    }
+}

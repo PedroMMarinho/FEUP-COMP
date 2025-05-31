@@ -1,0 +1,11 @@
+import a;
+import b;
+
+class HelloWorld{
+    public a kaka(){
+        b variable;
+
+        return variable;
+    }
+
+}

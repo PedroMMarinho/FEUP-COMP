@@ -1,0 +1,16 @@
+class Handler  {
+
+    public int A(){
+        return new Handler();
+    }
+
+    public int B(){
+        return 1;
+    }
+    public int executeTask() {
+        Handler instance;
+        instance = new Handler();
+
+        return instance.A().B();
+    }
+}

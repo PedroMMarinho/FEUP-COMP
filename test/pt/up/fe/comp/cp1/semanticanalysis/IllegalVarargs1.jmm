@@ -1,0 +1,12 @@
+class Application {
+
+    int[] processData(String[] inputStrings, boolean flag, int[] inputNumbers, int... extraValues) {
+        return [];
+    }
+
+     static void main(String[] arguments) {
+        Application app;
+        app = new Application();
+        app.processData(arguments, true, [0], 1, 2, 3, [4,5]);
+    }
+}

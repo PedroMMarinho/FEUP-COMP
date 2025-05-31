@@ -1,0 +1,13 @@
+// No arguments in vararg
+class ValueProcessor {
+
+    int[] calculateResults(int[] inputValues, boolean isActive, int... additionalData) {
+        return [0];
+    }
+
+    public static void main(String[] runtimeArgs) {
+        ValueProcessor processor;
+        processor = new ValueProcessor();
+        processor.calculateResults([1], false);
+    }
+}

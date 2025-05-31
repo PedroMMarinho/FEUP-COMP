@@ -1,0 +1,14 @@
+class A {
+    public int B() {
+        int a;
+        a = 0;
+        while (3 > a) {
+            if (1 > a) {
+                a = 5;
+            } else {
+                a = 1 + a;
+            }
+        }
+        return a;
+    }
+}

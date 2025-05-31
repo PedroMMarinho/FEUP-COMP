@@ -1,0 +1,13 @@
+// Use list as Varargs
+class DataTransformer {
+
+    int[] transform(int[] inputData, boolean isEnabled, String[] inputLabels, int... extraValues) {
+        return [];
+    }
+
+    public static void main(String[] runtimeParams) {
+        DataTransformer transformer;
+        transformer = new DataTransformer();
+        transformer.transform([1], false, runtimeParams, [1,2]);
+    }
+}

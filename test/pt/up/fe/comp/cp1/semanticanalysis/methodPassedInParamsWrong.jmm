@@ -1,0 +1,19 @@
+import B;
+
+class A extends B{
+
+    public boolean foo(){
+        return true;
+    }
+
+    public int abc(){
+        A b;
+        this.test(b.foo());
+        return 0;
+    }
+
+    public int test(int a){
+        return 0;
+    }
+
+}

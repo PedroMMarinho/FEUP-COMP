@@ -1,0 +1,16 @@
+// Must fail, Superclass being stored in the Subclass
+import Alpha;
+import Beta;
+
+class Handler extends Beta {
+
+    public int ball(){
+        return 1;
+       }
+    public int executeTask() {
+        Handler[] instance;
+        instance[0] = new Handler();
+
+        return instance[0].ball();
+    }
+}
